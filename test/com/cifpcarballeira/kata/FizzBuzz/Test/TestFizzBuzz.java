@@ -32,4 +32,9 @@ public class TestFizzBuzz {
         String result = fb.getFizzbuzz(2);
         assertEquals("2", result);
     }
+    public void test3devuelvefizz(){
+        fizzbuzz fb = new fizzbuzz();
+        String result = fb.getFizzbuzz(3);
+        assertEquals("fizz", result);
+    }
 }
